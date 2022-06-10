@@ -19,7 +19,6 @@ export class DashboardComponent implements OnInit {
   @ViewChild(MatSort, { static: true }) sort: MatSort;
   constructor(private rs: RestService) {
     this.rs.getPlayers().subscribe(response => {
-      console.log(response);
       this.playersData = response;
       this.dataSource = new MatTableDataSource(this.playersData);
       this.dataSource.paginator = this.paginator;
