@@ -5,7 +5,7 @@ import { Data,RestService } from '../rest.service';
   templateUrl: './chart.component.html',
   styleUrls: ['./chart.component.css']
 })
-export class ChartComponent implements OnInit {
+export class ChartComponent {
     playersChartData: any = [];
     constructor(private rs: RestService) {Object.assign(this.playersChartData)}       
     private getData() {

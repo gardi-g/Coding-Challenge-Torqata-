@@ -7,6 +7,15 @@ export interface Data {
   player_height: number;
   net_rating: number;
 }
+export interface User{
+  username: string
+  email: string
+  password: string
+}
+export interface Login{
+  email: string
+  password: string
+}
 @Injectable({
   providedIn: 'root'
 })

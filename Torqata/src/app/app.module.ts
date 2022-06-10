@@ -13,11 +13,24 @@ import { ChartComponent } from './chart/chart.component';
 import { HttpClientModule } from '@angular/common/http';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import { NgxEchartsModule } from 'ngx-echarts';
+import { LoginComponent } from './login/login.component';
+import {MatGridListModule} from '@angular/material/grid-list'
+import {MatCardModule} from '@angular/material/card';
+import{FormsModule, ReactiveFormsModule} from '@angular/forms'
+import{MatSelectModule} from '@angular/material/select';
+import { RegisterComponent } from './register/register.component';
+import { NavComponent } from './nav/nav.component';
+import { HomeComponent } from './home/home.component';
+
 @NgModule({
   declarations: [
     AppComponent,
     DashboardComponent,
-    ChartComponent
+    ChartComponent,
+    LoginComponent,
+    RegisterComponent,
+    NavComponent,
+    HomeComponent
   ],
   imports: [
     BrowserAnimationsModule,
@@ -27,7 +40,14 @@ import { NgxEchartsModule } from 'ngx-echarts';
     MatSortModule,
     MatTableModule,
     MatInputModule,
+    ReactiveFormsModule,
+    MatGridListModule,
     MatFormFieldModule,
+    MatSelectModule,
+    MatCardModule,
+    HttpClientModule,
+    FormsModule,
+    ReactiveFormsModule,
     NgxChartsModule,
     NgxEchartsModule.forRoot({
       echarts: () => import('echarts'), // or import('./path-to-my-custom-echarts')
