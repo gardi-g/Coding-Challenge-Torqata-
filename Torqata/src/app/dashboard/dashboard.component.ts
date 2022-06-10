@@ -3,6 +3,7 @@ import { MatTableDataSource, _MatTableDataSource} from '@angular/material/table'
 import {MatPaginator} from '@angular/material/paginator';
 import { MatSort, Sort} from '@angular/material/sort';
 import { Data, RestService } from '../rest.service';
+import 'animate.css';
 @Component({
   selector: 'app-dashboard',
   templateUrl: './dashboard.component.html',

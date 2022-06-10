@@ -1,5 +1,6 @@
 <h1>Table and Graph for NBA players</h1>
-<mat-form-field>
+<div>
+<mat-form-field class="filter">
     <mat-label>Filter</mat-label>
     <input matInput placeholder="Ex. Lebron James"(keyup)="applyFilter($event)">
 </mat-form-field>
@@ -30,6 +31,5 @@
         </div>
     </div>
 </div>    
-<app-chart></app-chart>
 
 
