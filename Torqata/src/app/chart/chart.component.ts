@@ -11,10 +11,9 @@ export class ChartComponent {
     private getData() {
         this.rs.getPlayers().subscribe((data: Data[]) => {
             const tempArray = [];
-            var originalData = JSON.parse(JSON.stringify(data));
-           for(let i = 0; i < originalData.length; i++) {
-            tempArray.push({player_name: originalData[i].player_name, age: originalData[i].age, player_height:originalData[i].player_height,
-            net_rating:originalData[i].net_rating});
+           for(let i = 0; i < data.length; i++) {
+            tempArray.push({player_name: data[i].player_name, age: data[i].age, player_height:data[i].player_height,
+            net_rating:data[i].net_rating});
             this.playersChartData = tempArray;
            }
            console.log(this.playersChartData);
