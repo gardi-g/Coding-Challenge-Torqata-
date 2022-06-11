@@ -30,13 +30,9 @@ Run ng test to execute the unit tests via Karma.
    ```sh
    npm install
    ```
-   4. To run project
+   4. To run project (get data)
    ```sh
    npm start
-   ```
-   5. To get data
-   ```sh
-   npx json-server --watch nbaplayers.json
    ```
    6. Run the development server
    ```sh
