@@ -19,7 +19,7 @@ import {MatCardModule} from '@angular/material/card';
 import{FormsModule, ReactiveFormsModule} from '@angular/forms'
 import{MatSelectModule} from '@angular/material/select';
 import { NavComponent } from './nav/nav.component';
-import { HomeComponent } from './home/home.component';
+
 
 @NgModule({
   declarations: [
@@ -27,8 +27,7 @@ import { HomeComponent } from './home/home.component';
     DashboardComponent,
     ChartComponent,
     LoginComponent,
-    NavComponent,
-    HomeComponent
+    NavComponent
   ],
   imports: [
     BrowserAnimationsModule,

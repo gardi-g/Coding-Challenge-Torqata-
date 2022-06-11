@@ -42,6 +42,294 @@
       "age": 32,
       "player_height": 200.12,
       "net_rating": 11
+    },
+    {
+      "player_name": "Marty Conlon",
+      "age": 29,
+      "player_height": 210.82,
+      "net_rating": -9
+    },
+    {
+      "player_name": "Martin Muursepp",
+      "age": 22,
+      "player_height": 205.74,
+      "net_rating": -14.5
+    },
+    {
+      "player_name": "Martin Lewis",
+      "age": 22,
+      "player_height": 198.12,
+      "net_rating": -3.5
+    },
+    {
+      "player_name": "Mark West",
+      "age": 36,
+      "player_height": 208.28,
+      "net_rating": 3.5
+    },
+    {
+      "player_name": "Mark Strickland",
+      "age": 26,
+      "player_height": 208.28,
+      "net_rating": -17.1
+    },
+    {
+      "player_name": "Mark Price",
+      "age": 33,
+      "player_height": 182.88,
+      "net_rating": -3.1
+    },
+    {
+      "player_name": "Mark Jackson",
+      "age": 32,
+      "player_height": 190.5,
+      "net_rating": -2
+    },
+    {
+      "player_name": "Mark Hendrickson",
+      "age": 23,
+      "player_height": 205.74,
+      "net_rating": -5.1
+    },
+    {
+      "player_name": "Mark Davis",
+      "age": 24,
+      "player_height": 200.66,
+      "net_rating": -7.4
+    },
+    {
+      "player_name": "Mark Bryant",
+      "age": 32,
+      "player_height": 205.74,
+      "net_rating": 3.3
+    },
+    {
+      "player_name": "Mark Bradtke",
+      "age": 28,
+      "player_height": 208.28,
+      "net_rating": 0.9
+    },
+    {
+      "player_name": "Mario Elie",
+      "age": 33,
+      "player_height": 195.58,
+      "net_rating": 5.6
+    },
+    {
+      "player_name": "Marcus Camby",
+      "age": 23,
+      "player_height": 210.82,
+      "net_rating": -1.5
+    },
+    {
+      "player_name": "Marcus Brown",
+      "age": 23,
+      "player_height": 190.5,
+      "net_rating": 4
+    },
+    {
+      "player_name": "Malik Sealy",
+      "age": 27,
+      "player_height": 203.2,
+      "net_rating": -8
+    },
+    {
+      "player_name": "Malik Rose",
+      "age": 22,
+      "player_height": 200.66,
+      "net_rating": 1.3
+    },
+    {
+      "player_name": "Mahmoud Abdul-Rauf",
+      "age": 28,
+      "player_height": 185.42,
+      "net_rating": -4.9
+    },
+    {
+      "player_name": "Lucious Harris",
+      "age": 26,
+      "player_height": 195.58,
+      "net_rating": -5.5
+    },
+    {
+      "player_name": "Luc Longley",
+      "age": 28,
+      "player_height": 218.44,
+      "net_rating": 10.4
+    },
+    {
+      "player_name": "Loy Vaught",
+      "age": 29,
+      "player_height": 205.74,
+      "net_rating": -7.7
+    },
+    {
+      "player_name": "Lou Roe",
+      "age": 24,
+      "player_height": 200.66,
+      "net_rating": -14.4
+    },
+    {
+      "player_name": "Matt Geiger",
+      "age": 27,
+      "player_height": 215.9,
+      "net_rating": 0.9
+    },
+    {
+      "player_name": "Matt Maloney",
+      "age": 25,
+      "player_height": 190.5,
+      "net_rating": 6.3
+    },
+    {
+      "player_name": "Matt Steigenga",
+      "age": 27,
+      "player_height": 200.66,
+      "net_rating": -19.8
+    },
+    {
+      "player_name": "Melvin Booker",
+      "age": 24,
+      "player_height": 187.96,
+      "net_rating": -3.8
+    },
+    {
+      "player_name": "Pervis Ellison",
+      "age": 30,
+      "player_height": 205.74,
+      "net_rating": 1.2
+    },
+    {
+      "player_name": "Patrick Ewing",
+      "age": 34,
+      "player_height": 213.36,
+      "net_rating": 6.4
+    },
+    {
+      "player_name": "P.J. Brown",
+      "age": 27,
+      "player_height": 210.82,
+      "net_rating": 7.4
+    },
+    {
+      "player_name": "Otis Thorpe",
+      "age": 34,
+      "player_height": 208.28,
+      "net_rating": 6.2
+    },
+    {
+      "player_name": "Othella Harrington",
+      "age": 23,
+      "player_height": 205.74,
+      "net_rating": 0.4
+    },
+    {
+      "player_name": "Oliver Miller",
+      "age": 27,
+      "player_height": 205.74,
+      "net_rating": -1
+    },
+    {
+      "player_name": "Olden Polynice",
+      "age": 32,
+      "player_height": 213.36,
+      "net_rating": -3.2
+    },
+    {
+      "player_name": "Nick Van Exel",
+      "age": 25,
+      "player_height": 185.42,
+      "net_rating": 3.8
+    },
+    {
+      "player_name": "Nick Anderson",
+      "age": 29,
+      "player_height": 198.12,
+      "net_rating": 3.6
+    },
+    {
+      "player_name": "Nate McMillan",
+      "age": 32,
+      "player_height": 195.58,
+      "net_rating": 14.1
+    },
+    {
+      "player_name": "Nate Driggers",
+      "age": 23,
+      "player_height": 195.58,
+      "net_rating": -24
+    },
+    {
+      "player_name": "Lorenzo Williams",
+      "age": 27,
+      "player_height": 205.74,
+      "net_rating": -10.9
+    },
+    {
+      "player_name": "Muggsy Bogues",
+      "age": 32,
+      "player_height": 160.02,
+      "net_rating": 6
+    },
+    {
+      "player_name": "Moochie Norris",
+      "age": 23,
+      "player_height": 187.96,
+      "net_rating": -30.5
+    },
+    {
+      "player_name": "Monty Williams",
+      "age": 25,
+      "player_height": 203.2,
+      "net_rating": -6.3
+    },
+    {
+      "player_name": "Mitchell Butler",
+      "age": 26,
+      "player_height": 195.58,
+      "net_rating": 4.6
+    },
+    {
+      "player_name": "Mitch Richmond",
+      "age": 32,
+      "player_height": 195.58,
+      "net_rating": -2
+    },
+    {
+      "player_name": "Mike Brown",
+      "age": 33,
+      "player_height": 208.28,
+      "net_rating": 1.7
+    },
+    {
+      "player_name": "Michael Smith",
+      "age": 25,
+      "player_height": 203.2,
+      "net_rating": -1.8
+    },
+    {
+      "player_name": "Michael Jordan",
+      "age": 34,
+      "player_height": 198.12,
+      "net_rating": 13.4
+    },
+    {
+      "player_name": "Michael Hawkins",
+      "age": 24,
+      "player_height": 182.88,
+      "net_rating": -10.3
+    },
+    {
+      "player_name": "Michael Finley",
+      "age": 24,
+      "player_height": 200.66,
+      "net_rating": -6.5
+    },
+    {
+      "player_name": "Michael Curry",
+      "age": 28,
+      "player_height": 195.58,
+      "net_rating": 6.7
     }
   ]  
 }

@@ -18,15 +18,15 @@ export class DashboardComponent implements OnInit {
   @ViewChild(MatPaginator, { static: true }) paginator: MatPaginator;
   //@ts-ignore
   @ViewChild(MatSort, { static: true }) sort: MatSort;
-  constructor(private rs: RestService) {
+  constructor(private rs: RestService) {}
+  ngOnInit(): void {
     this.rs.getPlayers().subscribe(response => {
-      this.playersData = response;
-      this.dataSource = new MatTableDataSource(this.playersData);
-      this.dataSource.paginator = this.paginator;
-      this.dataSource.sort = this.sort;
-    })
+    this.playersData = response;
+    this.dataSource = new MatTableDataSource(this.playersData);
+    this.dataSource.paginator = this.paginator;
+    this.dataSource.sort = this.sort;
+    })    
   }
-  ngOnInit(): void {}
   applyFilter(event: Event) {
     const filterValue = (event.target as HTMLInputElement).value;
     this.dataSource.filter = filterValue.trim().toLowerCase();

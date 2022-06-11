@@ -5,10 +5,10 @@ import { Data,RestService } from '../rest.service';
   templateUrl: './chart.component.html',
   styleUrls: ['./chart.component.css']
 })
-export class ChartComponent {
+export class ChartComponent implements OnInit {
     playersChartData: any = [];
-    constructor(private rs: RestService) {Object.assign(this.playersChartData)}       
-    private getData() {
+    constructor(private rs: RestService) {Object.assign(this.playersChartData)}          
+    ngOnInit(): void {
         this.rs.getPlayers().subscribe((data: Data[]) => {
             const tempArray = [];
            for(let i = 0; i < data.length; i++) {
@@ -18,8 +18,5 @@ export class ChartComponent {
            }
            console.log(this.playersChartData);
           })
-    }
-    ngOnInit(): void {
-        this.getData();
     }
 }
