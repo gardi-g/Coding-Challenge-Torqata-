@@ -1,16 +1,42 @@
-<main class="form-signin w-100 m-auto">
-    <form [formGroup]="form" (submit)="submit()">
-      <h1 class="h3 mb-3 fw-normal">Please sign in</h1>
-      <div class="form-floating">
+<div class="container" id="container">
+  <div class="form-container sign-up-container">
+        <form action="#" [formGroup]="signUpForm" (submit)="submit()">
+          <h1>Create Account</h1>
+          <span>&nbsp;</span>
+          <input formControlName="username" type="username" class="form-control" placeholder="Username"> 
+          <input formControlName="email" type="email" class="form-control" placeholder="name@example.com">
+          <input formControlName="password" type="password" class="form-control" placeholder="Password">
+          <span>&nbsp;</span>
+          <button class="w-100 btn btn-lg btn-primary" type="submit">Sign Up</button>
+        </form>
+  </div>  
+    <div class="form-container sign-in-container">
+      <form action="#" [formGroup]="signInForm" (submit)="submit()">
+        <h1>Sign in</h1>
+        <span>&nbsp;</span>
         <input formControlName="email" type="email" class="form-control" placeholder="name@example.com">
-        <label for="floatingInput">Email address</label>
-      </div>
-      <div class="form-floating">
         <input formControlName="password" type="password" class="form-control" placeholder="Password">
-        <label for="floatingPassword">Password</label>
-      <button class="w-100 btn btn-lg btn-primary" type="submit">Sign in</button>
+        <span>&nbsp;</span>
+        <button class="w-100 btn btn-lg btn-primary" type="submit">Sign in</button>
+      </form>
+    </div> 
+    <div class="overlay-container">
+      <div class="overlay">
+        <div class="overlay-panel overlay-left">
+          <img style="max-width: 100%; height:100px; width:100px;" src="assets/logo.png">
+          <span>&nbsp;</span>
+          <h1>Welcome to my NBA Data Collection</h1>
+          <p>At the moment, the graph and login is not implemented correctly. Proceed by clicking the dashboard</p>
+          <button class="ghost" id="signIn">Sign In</button>
+        </div>
+        <div class="overlay-panel overlay-right">
+          <img style="max-width: 100%; height:100px; width:100px;" src="assets/logo.png">
+          <span>&nbsp;</span>
+          <h1>Welcome to my NBA Data Collection</h1>
+          <p>At the moment, the graph and login is not implemented correctly. Proceed by clicking the dashboard</p>
+          <button class="ghost" id="signUp">Sign Up</button>
+        </div>
       </div>
-    </form>
-  </main>
-
+    </div>   
+</div>
 

@@ -18,7 +18,6 @@ import {MatGridListModule} from '@angular/material/grid-list'
 import {MatCardModule} from '@angular/material/card';
 import{FormsModule, ReactiveFormsModule} from '@angular/forms'
 import{MatSelectModule} from '@angular/material/select';
-import { RegisterComponent } from './register/register.component';
 import { NavComponent } from './nav/nav.component';
 import { HomeComponent } from './home/home.component';
 
@@ -28,7 +27,6 @@ import { HomeComponent } from './home/home.component';
     DashboardComponent,
     ChartComponent,
     LoginComponent,
-    RegisterComponent,
     NavComponent,
     HomeComponent
   ],
