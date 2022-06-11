@@ -34,7 +34,7 @@ Run ng test to execute the unit tests via Karma.
    ```sh
    npm start
    ```
-   6. Run the development server
+   5. Run the development server
    ```sh
    ng serve
    ```
