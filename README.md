@@ -6,9 +6,10 @@ Coding Challenge assigned by Torqata
 I was sending the login credentitals to a localhost using docker (http://localhost:8000/api/register).
 I was getting an error stating that: 
 "The get method is not supported for this route. Supported methods:POST."
-Couldn't fix it in time. If I was able to retrieve the jwt token it would have been easy from that point.
+I also tried to use google firebase authentication but there was a small issue which I couldn't find.
+So instead I just left it as it is and the login credentials are going to the firebase backend.
 
-- The chart was implemented but unfortunately I was getting errors stating that "result.series is not iterable". 
+- Theq chart was implemented but unfortunately I was getting errors stating that "result.series is not iterable". 
 All of the variables are array's so it should have work but I was wrong, couldn't find the error. 
 I could have implemented manually but it ruins the purpose of this assesment.
  ```
