@@ -19,6 +19,8 @@ import {MatCardModule} from '@angular/material/card';
 import{FormsModule, ReactiveFormsModule} from '@angular/forms'
 import{MatSelectModule} from '@angular/material/select';
 import { NavComponent } from './nav/nav.component';
+import{AngularFireModule} from '@angular/fire/compat'
+import{AngularFireAuthModule} from'@angular/fire/compat/auth';
 
 
 @NgModule({
@@ -34,6 +36,7 @@ import { NavComponent } from './nav/nav.component';
     BrowserModule,
     AppRoutingModule,
     MatPaginatorModule,
+    AngularFireAuthModule,
     MatSortModule,
     MatTableModule,
     MatInputModule,
@@ -41,6 +44,15 @@ import { NavComponent } from './nav/nav.component';
     MatGridListModule,
     MatFormFieldModule,
     MatSelectModule,
+    AngularFireModule.initializeApp({
+      apiKey: "AIzaSyDoZOPyAqCVlYoRazUEjnHnbS_pYuZxmnU",
+      authDomain: "coding-challenge-torqata.firebaseapp.com",
+      projectId: "coding-challenge-torqata",
+      storageBucket: "coding-challenge-torqata.appspot.com",
+      messagingSenderId: "729883788385",
+      appId: "1:729883788385:web:aa0968814f5e9c8d215620",
+      measurementId: "G-Y7WR3KGLLV"
+    }),
     MatCardModule,
     HttpClientModule,
     FormsModule,
