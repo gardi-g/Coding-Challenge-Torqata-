@@ -35,7 +35,10 @@ I could have implemented manually but it ruins the purpose of this assesment.
 # Code scaffolding
 Run ng generate component component-name to generate a new component. You can also use ng generate directive|pipe|service|class|guard|interface|enum|module.
 # Running unit tests
+```sh
 Run ng test to execute the unit tests via Karma.
+```
 # Running linting
-Run npm run lint
-
+```sh
+npm run lint
+```
