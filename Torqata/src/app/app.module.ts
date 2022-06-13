@@ -21,6 +21,7 @@ import{MatSelectModule} from '@angular/material/select';
 import { NavComponent } from './nav/nav.component';
 import{AngularFireModule} from '@angular/fire/compat'
 import{AngularFireAuthModule} from'@angular/fire/compat/auth';
+import { HomepageComponent } from './homepage/homepage.component';
 
 
 @NgModule({
@@ -29,7 +30,8 @@ import{AngularFireAuthModule} from'@angular/fire/compat/auth';
     DashboardComponent,
     ChartComponent,
     LoginComponent,
-    NavComponent
+    NavComponent,
+    HomepageComponent
   ],
   imports: [
     BrowserAnimationsModule,

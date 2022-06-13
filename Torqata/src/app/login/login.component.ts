@@ -57,7 +57,7 @@ submitSignUp():void {
 submitSignIn():void {
   this.http.get('https://coding-challenge-torqata-default-rtdb.firebaseio.com/users.json', this.signInForm.value)
   .subscribe((response)=>{
-    this.router.navigate(['/dashboard'])
+    this.router.navigate(['/home'])
     console.log(response);
   });
 }
