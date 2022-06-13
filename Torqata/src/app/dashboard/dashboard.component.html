@@ -1,9 +1,8 @@
 <app-nav></app-nav>
 <h1>Table and Graph for NBA players</h1>
-<div>
 <mat-form-field class="filter">
     <mat-label>Filter</mat-label>
-    <input matInput placeholder="Ex. Lebron James"(keyup)="applyFilter($event)">
+    <input matInput placeholder="Ex. Lebron James" (keyup)="applyFilter($event)">
 </mat-form-field>
 <div fxLayout="row" fxLayoutAlign="space-between center" fxLayoutGap="10px">
     <div fxFlex="60">
@@ -28,9 +27,8 @@
                 <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
                 <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
             </table>
-            <mat-paginator [pageSize]="10" [pageSizeOptions]="[10, 20, 30]" ></mat-paginator>
+            <mat-paginator [pageSize]="10" [pageSizeOptions]="[10, 20, 30]"></mat-paginator>
         </div>
     </div>
-</div>    
-
-
+</div>
+<app-chart></app-chart>

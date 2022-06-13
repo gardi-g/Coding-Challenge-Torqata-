@@ -9,6 +9,9 @@
     background-color: black;
     top:0;
   }
+  .home-dashboard-container{
+    display: inline;
+  }
   .navbar a:hover {
     color: #fddb3a;
   }
