@@ -1,16 +1,42 @@
-const express = require("express");
-const path = require("path");
+const express = require('express');
+const fetch = require('node-fetch');
 
-const port = process.env.PORT || 3000;
 const app = express();
+app.enable('trust proxy');
 
-const publicPath = path.join(__dirname, "/dist/torqata");
+const METADATA_NETWORK_INTERFACE_URL =
+  'http://metadata/computeMetadata/v1/' +
+  '/instance/network-interfaces/0/access-configs/0/external-ip';
 
-app.use(express.static(publicPath));
+const getExternalIp = async () => {
+  const options = {
+    headers: {
+      'Metadata-Flavor': 'Google',
+    },
+    json: true,
+  };
 
-app.get("*", (req, res) => {
-  res.sendFile(path.join(__dirname + "/dist/torqata/index.html"));
+  try {
+    const response = await fetch(METADATA_NETWORK_INTERFACE_URL, options);
+    const ip = await response.json();
+    return ip;
+  } catch (err) {
+    console.log('Error while talking to metadata server, assuming localhost');
+    return 'localhost';
+  }
+};
+
+app.get('/', async (req, res, next) => {
+  try {
+    const externalIp = await getExternalIp();
+    res.status(200).send(`External IP: ${externalIp}`).end();
+  } catch (err) {
+    next(err);
+  }
 });
-app.listen(port, () => {
-  console.log(`Server is up on ${port}`);
+
+const PORT = parseInt(process.env.PORT) || 8080;
+app.listen(PORT, () => {
+  console.log(`App listening on port ${PORT}`);
+  console.log('Press Ctrl+C to quit.');
 });
