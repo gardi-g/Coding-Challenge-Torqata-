@@ -14,7 +14,7 @@ All of the variables are array's so it should have work but I was wrong, couldn'
 I could have implemented manually but it ruins the purpose of this assesment.
 
 - Was deploying the angular app on App Engine
-but whenever the app was deployed and I clicked on the url I was getting a "Not Found" error.
+but whenever the app was deployed and I clicked on the url I was getting a "502 Bad Gateway" error.
 (https://endless-beach-353101.uk.r.appspot.com/)
  ```
 # Installation 
