@@ -1,3 +1,12 @@
+# Coding Assesment from Torqata
+ ```sh
+Objectives
+* Create a responsive dashboard accessible from both a desktop/mobile device that displays the data.
+* Table of data with search, filter, sorting, and pagination
+* Graphs to help guide the user to a conclusion about the data
+* Use Angular for the front-end and  back-end code if necessary  
+* Unit Testing, Linting implemented.
+```
 # Installation 
   1. Clone the repo 
    ```sh
